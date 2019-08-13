@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5931,12 +5932,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <sheets>
 <sheet>
 <plain>
-<text x="5.08" y="68.58" size="1.778" layer="91">9V</text>
-<text x="-5.08" y="50.8" size="1.778" layer="91">1k Resistor</text>
-<text x="20.32" y="50.8" size="1.778" layer="91">1k Resistor</text>
-<text x="-17.78" y="73.66" size="1.778" layer="91">LED 1</text>
-<text x="22.86" y="86.36" size="1.778" layer="91">LED 2</text>
-<text x="38.1" y="63.5" size="1.778" layer="91">Potentiometer</text>
+<text x="6.096" y="68.58" size="1.778" layer="91">9V</text>
+<text x="-6.35" y="52.07" size="1.778" layer="91">1k Resistor</text>
+<text x="18.796" y="52.07" size="1.778" layer="91">1k Resistor</text>
+<text x="-17.78" y="71.12" size="1.778" layer="91">LED 1</text>
+<text x="20.32" y="83.82" size="1.778" layer="91">LED 2</text>
+<text x="37.084" y="64.77" size="1.778" layer="91">Potentiometer</text>
 <text x="30.48" y="60.96" size="1.778" layer="91">1</text>
 <text x="38.1" y="71.12" size="1.778" layer="91">2</text>
 <text x="30.48" y="76.2" size="1.778" layer="91">3</text>
@@ -6018,6 +6019,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,25.4,55.88,R1,,,,,"/>
+<approved hash="113,1,0,55.88,R2,,,,,"/>
+<approved hash="113,1,36.7792,68.58,R3,,,,,"/>
+<approved hash="113,1,33.02,76.4794,PAD1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

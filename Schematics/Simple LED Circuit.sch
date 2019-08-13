@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3759,9 +3760,9 @@ Source: http://catalog.osram-os.com .. LA_LR_LS_LY_P47F_Pb_free.pdf</description
 <sheets>
 <sheet>
 <plain>
-<text x="40.64" y="58.42" size="1.778" layer="91">9V Battery</text>
-<text x="78.74" y="53.34" size="1.778" layer="91">1k Ohm Resistor</text>
-<text x="78.74" y="63.5" size="1.778" layer="91">Light Emitting Diode (LED)</text>
+<text x="40.64" y="57.658" size="1.778" layer="91">9V Battery</text>
+<text x="76.2" y="50.038" size="1.778" layer="91">1k Ohm Resistor</text>
+<text x="76.2" y="64.262" size="1.778" layer="91">Light Emitting Diode (LED)</text>
 </plain>
 <instances>
 <instance part="9V" gate="G$1" x="55.88" y="58.42" smashed="yes" rot="R90"/>

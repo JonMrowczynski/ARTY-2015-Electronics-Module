@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -11006,23 +11007,23 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-22.86" y="73.66" size="1.778" layer="91">LED1</text>
-<text x="17.78" y="83.82" size="1.778" layer="91">LED2</text>
-<text x="43.18" y="58.42" size="1.778" layer="91">10k </text>
-<text x="7.62" y="35.56" size="1.778" layer="91">10k </text>
+<text x="-22.86" y="74.676" size="1.778" layer="91">LED1</text>
+<text x="18.796" y="83.82" size="1.778" layer="91">LED2</text>
+<text x="43.18" y="57.658" size="1.778" layer="91">10k </text>
+<text x="8.128" y="37.084" size="1.778" layer="91">10k </text>
 <text x="-17.78" y="63.5" size="1.778" layer="91">1k </text>
-<text x="5.08" y="50.8" size="1.778" layer="91">10u Capacitor</text>
-<text x="7.62" y="68.58" size="1.778" layer="91">9V</text>
+<text x="4.826" y="51.816" size="1.778" layer="91">10uF Capacitor</text>
+<text x="6.604" y="68.58" size="1.778" layer="91">9V</text>
 <text x="-30.48" y="50.8" size="1.778" layer="91">Transistor 1</text>
-<text x="25.4" y="40.64" size="1.778" layer="91">Transistor 2</text>
-<text x="-15.24" y="40.64" size="1.778" layer="91">E</text>
-<text x="20.32" y="45.72" size="1.778" layer="91">E</text>
+<text x="23.622" y="39.878" size="1.778" layer="91">Transistor 2</text>
+<text x="-15.494" y="41.656" size="1.778" layer="91">E</text>
+<text x="20.066" y="45.212" size="1.778" layer="91">E</text>
 <text x="17.78" y="38.1" size="1.778" layer="91" align="bottom-center">B</text>
 <text x="-17.78" y="45.72" size="1.778" layer="91" align="bottom-center">B</text>
-<text x="-15.24" y="53.34" size="1.778" layer="91">C</text>
-<text x="20.32" y="33.02" size="1.778" layer="91">C</text>
-<text x="-43.18" y="81.28" size="1.778" layer="91" align="center">Touch</text>
-<text x="-43.18" y="48.26" size="1.778" layer="91" align="center">Touch</text>
+<text x="-15.748" y="52.07" size="1.778" layer="91">C</text>
+<text x="20.32" y="34.544" size="1.778" layer="91">C</text>
+<text x="-43.18" y="81.28" size="1.778" layer="91" align="center">Hand 1</text>
+<text x="-43.18" y="48.26" size="1.778" layer="91" align="center">Hand 2</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="-12.7" y="76.2" smashed="yes"/>
@@ -11042,11 +11043,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="C1" gate="G$1" x="2.54" y="48.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="1.524" y="52.451" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PAD1" gate="P" x="-38.1" y="81.28" smashed="yes">
-<attribute name="VALUE" x="-39.243" y="77.978" size="1.778" layer="96"/>
+<instance part="PAD1" gate="P" x="-35.56" y="81.28" smashed="yes">
+<attribute name="VALUE" x="-36.703" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD2" gate="P" x="-38.1" y="48.26" smashed="yes">
-<attribute name="VALUE" x="-39.243" y="44.958" size="1.778" layer="96"/>
+<instance part="PAD2" gate="P" x="-35.56" y="48.26" smashed="yes">
+<attribute name="VALUE" x="-36.703" y="44.958" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11059,7 +11060,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="2.54" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="-12.7" y1="81.28" x2="-12.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="81.28" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="81.28" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="P" pin="P"/>
 <junction x="-12.7" y="81.28"/>
 <junction x="2.54" y="81.28"/>
@@ -11084,7 +11085,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
-<wire x1="-17.78" y1="48.26" x2="-35.56" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="PAD2" gate="P" pin="P"/>
 </segment>
 </net>
