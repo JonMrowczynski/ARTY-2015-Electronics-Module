@@ -1,17 +1,13 @@
 # Camp Circuits
 
-This repository contains some of my electronics work for the 2015 Arty summer robotics camp. 
+This repository contains the documents I made that were used to help implement the electronics module for the 2015 Art, Robotics, and Technology for Youth (ARTY) Summer Workshop where campers learned about electrical components and circuits through hands-on experiences.
 
-Specifically, it contains the documents used to help implement the electronics module, where the campers learned about common electrical components and simple circuits through hands-on experience.
-
-You can find more information about Arty here: http://arts-sciences.buffalo.edu/techne-institute/programs-events/arty.html
+You can find more information about ARTY 2015 here: http://www.buffalo.edu/ubnow/featured-stories.host.html/content/shared/university/news/news-center-releases/2015/07/019.detail.html
 
 ## Requirements
 
-- You will need Microsoft Word in order to read "Circuit Guide". This guide includes the circuit designs which can be individually viewed by opening the corresponding PDF file.
+- Microsoft Word or LibreOffice to read/modify "Circuit Guide.docx", which includes all of the information required to preform the electronics module.
 
-- The PDFs of the circuit designs can be read by using any PDF reader.
+- Any PDF reader to view the PDFs of the schematics.
 
-- If you would like to modify the circuit designs, or view the actualy schematics used to make the PDFs, you will need to download and install Autodesk Eagle, a link to which can be found here: https://www.autodesk.com/products/eagle/free-download
-
-The installation process should be pretty self-explanatory. Afterwards, you should be able to open the schematics and edit them.
+- Autodesk Eagle If you would like to modify the schematics: https://www.autodesk.com/products/eagle/free-download
