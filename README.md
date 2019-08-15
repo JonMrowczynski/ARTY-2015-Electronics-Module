@@ -1,4 +1,4 @@
-# Camp Circuits
+# ARTY 2015 Electronics Module
 
 This repository contains the documents I made that were used to help implement the electronics module for the 2015 Art, Robotics, and Technology for Youth (ARTY) Summer Workshop where campers learned about electrical components and circuits through hands-on experiences.
 
