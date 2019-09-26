@@ -10,4 +10,4 @@ You can find more information about ARTY 2015 [here](http://www.buffalo.edu/ubno
 
 - Any PDF reader to view the PDFs of the schematics.
 
-- [Autodesk Eagle](https://www.autodesk.com/products/eagle/free-download) >= 9.5 if you would like to modify the schematics.
+- [Autodesk Eagle](https://www.autodesk.com/products/eagle/free-download) >= 9.5 to modify the schematics.
